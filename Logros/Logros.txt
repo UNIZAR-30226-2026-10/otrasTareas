@@ -1,0 +1,52 @@
+
+            nombre: "Primeros pasos",
+            descripcion: "Gana tu primera partida",
+            recompensa : null
+
+            nombre: "En racha",
+            descripcion: "Gana 5 partidas",
+            recompensa : null
+
+            nombre: "Imparable",
+            descripcion: "Gana 10 partidas",
+            recompensa : null
+
+            nombre: "Manos a la obra",
+            descripcion: "Juega tu primera carta",
+            recompensa : null
+
+            nombre: "Estratega",
+            descripcion: "Juega 15 cartas",
+            recompensa : null
+
+            nombre: "Ahorro inteligente",
+            descripcion: "Ahorra 2000 SEP",
+            recompensa : null
+
+            nombre: "Magnate",
+            descripcion: "Ahorra 4000 SEP",
+            recompensa : null
+
+            nombre: "Derrotado",
+            descripcion: "Pierde tu primera partida",
+            recompensa : null
+
+            nombre: "Resiliente",
+            descripcion: "Pierde 5 partidas",
+            recompensa : null
+
+            nombre: "Negado",
+            descripcion: "Pierde 10 partidas",
+            recompensa : null
+
+            nombre: "Coleccionista",
+            descripcion: "Obtén todas las cartas",
+            recompensa : null
+
+            nombre: "Completista",
+            descripcion: "Completa 8 logros",
+            recompensa : null
+
+            nombre: "Platino",
+            descripcion: "Completa todos los logros",
+            recompensa : "Foto de perfil"
