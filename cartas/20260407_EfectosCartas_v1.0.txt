@@ -1,0 +1,31 @@
+CARTAS:
+1.Exceso de medios: Tirar 2 fakin dados B
+2.Moises: Saltarte un bloqueo B
+3.Wild Frank: Poner una serpiente T
+4.Carpintero: Poner una escalera en el mapa T
+5.Dia de la marmota: Cambiar una casilla para que el que caiga se mueva x espacios para atrás (en principio no activaría el efecto de la casilla en la que cae) T
+6.Salto de longitud: Lo mismo que la 5 pero para adelante T
+7.Robo de identidad: Poner una casilla que cuando caigas te lleve a la casilla de otra ficha al azar T
+8.Mal de ojo:  Restarle a un jugador 3 en su próxima tirada N
+9.Antidoto:  e, no bajas B
+10.Pickpocket: Roba una carta al azar de otro jugador (que elijas o al azar como queráis) (esto rompe el meta) B N 
+11.Dado envenenado : Nerfearle el dado al rival(dado de 1-3) N 
+12.Dado dorado : Bufarte el dado(dado de 4-6) B
+13.Serpiente en tu bota : Crear casilla para que si caes pierdes un turno T 
+14.Parca: manda una ficha al azar(incluso de las del usuario que la usa) al inicio B N 
+15.Cambiar de idea : reroll de cartas B
+16.Agujero de serpiente : Carta que tepee a posición aleatoria T
+17.Bolsillo roto : Quitarle todas las cartas y que robe solo 1 N
+18.Compañerismo obligado : Teletransportas a la mejor ficha donde esta la anterior suya(si hay bloqueo se le resta 1 casilla) N
+19.Coleccionista : Robas dos cartas en tu siguiente turno B
+20.Noqueo : Cancelar un turno a un jugador N
+
+B N : 2
+B : 6
+N : 5
+T : 7
+
+SKINS:
+serpiente: como las serpientes de calcetín que se ponen en las manos
+escalera: una fakin liana
+ficha: un fakin tótem guapísimo sacado de un templo de la jungla

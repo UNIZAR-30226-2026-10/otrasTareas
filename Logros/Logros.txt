@@ -1,0 +1,51 @@
+nombre: "Primeros pasos",
+descripcion: "Gana tu primera partida",
+recompensa: "Carta"
+
+nombre: "En racha",
+descripcion: "Gana 5 partidas",
+recompensa: "Carta"
+
+nombre: "Imparable",
+descripcion: "Gana 10 partidas",
+recompensa: "Imagen W"
+
+nombre: "Manos a la obra",
+descripcion: "Juega tu primera carta",
+recompensa: "Carta"
+
+nombre: "Estratega",
+descripcion: "Juega 15 cartas",
+recompensa: "Skin de escalera"
+
+nombre: "Ahorro inteligente",
+descripcion: "Ahorra 2000 SEP",
+recompensa: "Carta"
+
+nombre: "Magnate",
+descripcion: "Ahorra 4000 SEP",
+recompensa: "Skin de escalera"
+
+nombre: "Derrotado",
+descripcion: "Pierde tu primera partida",
+recompensa: "Carta"
+
+nombre: "Resiliente",
+descripcion: "Pierde 5 partidas",
+recompensa: "Skin de ficha"
+
+nombre: "Negado",
+descripcion: "Pierde 10 partidas",
+recompensa: "Imagen L"
+
+nombre: "Coleccionista",
+descripcion: "Obtén todas las cartas",
+recompensa: "Skin serpiente"
+
+nombre: "Completista",
+descripcion: "Completa 8 logros",
+recompensa: "Imagen de perfil"
+
+nombre: "Platino",
+descripcion: "Completa todos los logros",
+recompensa: "Imagen de perfil"
