@@ -1,0 +1,25 @@
+User: Revisa si mi codigo, al hacer deleteDeck en donde ese deck se use como foreing key en algun lado si se pone como null o que pasa
+
+GitHub Copilot: Search complete: Locate deleteDeck flow
+
+Searched for files matching `**/*.prisma`, 1 match
+
+Searched for regex `deleteDeck|deckDeletion|removeDeck`, 11 results
+
+Read [](file:///c%3A/Users/danie/Desktop/clase4/PS/backend/src/prisma/schema.prisma)
+
+Read [](file:///c%3A/Users/danie/Desktop/clase4/PS/backend/src/services/Deck.ts#340-340), lines 340 to 400
+
+Searched for text `getAllPartidasFromADeck` (`**/src/services/Deck.ts`), 3 results
+
+Read [](file:///c%3A/Users/danie/Desktop/clase4/PS/backend/src/prisma/schema.prisma)
+
+Read [](file:///c%3A/Users/danie/Desktop/clase4/PS/backend/src/services/Deck.ts#300-300), lines 300 to 406
+
+Se borra en cascada, no se pone en `null`.
+
+- En `deleteDeck` se hace `prisma.baraja.delete(...)` después de bloquear si hay partidas activas; no hay ninguna lógica que nullee referencias. Ver Deck.ts.
+- En el schema, las relaciones que apuntan a `Baraja` usan `onDelete: Cascade` en `BarajaCarta` y `BarajaPartida`. Ver schema.prisma.
+- Como esos campos no son opcionales, no pueden quedar en `null`; al borrar una `Baraja` se eliminan las filas relacionadas en `BarajaCarta` y `BarajaPartida` (y la `Partida` permanece, pero pierde el vínculo).
+
+Si quieres que al borrar quede `null`, hay que volver los campos opcionales y cambiar a `onDelete: SetNull` en el schema, luego migrar.
